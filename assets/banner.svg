@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f5ff"/>
+      <stop offset="0.6" stop-color="#f1f7ff"/>
+      <stop offset="1" stop-color="#ecfbf7"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#99f6e4" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a5b4fc" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#6ee7b7" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+
+  <!-- soft waves along the bottom -->
+  <path d="M0 262 C180 232 340 290 540 266 C760 240 900 292 1100 262 C1180 250 1240 256 1280 262 V320 H0 Z" fill="url(#wave1)"/>
+  <path d="M0 288 C200 268 380 310 600 290 C820 270 980 312 1280 286 V320 H0 Z" fill="url(#wave2)"/>
+
+  <!-- text, left aligned -->
+  <text x="80" y="128" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="46" font-weight="700" fill="#1e1b4b">Student Mental Health</text>
+  <text x="80" y="182" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="46" font-weight="300" fill="#4338ca">Prediction</text>
+  <rect x="82" y="204" width="56" height="4" rx="2" fill="#14b8a6"/>
+  <text x="80" y="238" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+        font-size="18" fill="#475569">Predicting anxiety, stress and depression levels with machine learning</text>
+
+  <!-- right: three overlapping circles = the three related conditions -->
+  <g transform="translate(1030 132) scale(0.8)">
+    <circle cx="-52" cy="-26" r="78" fill="#8b5cf6" fill-opacity="0.22" stroke="#8b5cf6" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="52" cy="-26" r="78" fill="#0ea5e9" fill-opacity="0.20" stroke="#0ea5e9" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="0" cy="58" r="78" fill="#14b8a6" fill-opacity="0.20" stroke="#14b8a6" stroke-opacity="0.55" stroke-width="2"/>
+    <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
+      <text x="-82" y="-40" fill="#5b21b6">Anxiety</text>
+      <text x="82" y="-40" fill="#0369a1">Stress</text>
+      <text x="0" y="104" fill="#0f766e">Depression</text>
+    </g>
+    <circle cx="0" cy="4" r="6" fill="#1e1b4b" fill-opacity="0.75"/>
+  </g>
+</svg>

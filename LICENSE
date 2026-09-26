@@ -1,0 +1,29 @@
+Copyright (c) 2026 Ridita Katha (https://github.com/k-a-tha) and Paromita Rasheed
+All rights reserved.
+
+"Predicting Student Anxiety, Stress and Depression Levels" — including its
+source code, Jupyter notebook, report, figures and documentation (the "Work")
+— is the original work of Ridita Katha and Paromita Rasheed, created for
+CSE422: Artificial Intelligence at BRAC University.
+
+The Work is published publicly for portfolio and reference purposes only.
+You MAY:
+  - view the Work on GitHub;
+  - download and run the notebook for personal, non-commercial learning.
+
+You MAY NOT, without prior written permission from the authors:
+  - copy, modify, merge, publish, distribute, sublicense or sell any part
+    of the Work;
+  - present, submit or claim the Work, or any part of it, as your own —
+    including for academic coursework, assignments, labs or projects;
+  - use the Work, or any part of it, in another project.
+
+The dataset ("Depression Data.csv") is NOT covered by this license. It is the
+MHP (Anxiety, Stress, Depression) Dataset of University Students and remains
+the property of its original authors; see README.md for the source.
+
+For permission requests, contact the authors through GitHub: @k-a-tha.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY ARISING FROM THE USE OF THE WORK.
