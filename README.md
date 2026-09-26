@@ -319,10 +319,6 @@ Student-Mental-Health-Prediction/
 
 ---
 
-## 💙 A Note on Mental Health
-
-This project is a technical exercise in machine learning. If you are a student feeling anxious, stressed or low, please reach out to your university's counselling service or someone you trust — support is available.
-
 ## 📄 License
 
 **© 2026 Ridita Katha and Paromita Rasheed — All Rights Reserved.**
